@@ -1,0 +1,19 @@
+{
+  "name": "lan-chat",
+  "version": "1.0.0",
+  "description": "Self-hosted chat with accounts, direct messages, and file/image/video sharing. Deploys to Vercel.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vercel dev"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@vercel/blob": "^0.24.0",
+    "@vercel/postgres": "^0.10.0",
+    "express": "^5.1.0",
+    "multer": "^2.0.2"
+  }
+}
