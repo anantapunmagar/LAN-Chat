@@ -1,0 +1,17 @@
+{
+  "name": "lan-chat",
+  "version": "1.0.0",
+  "description": "Self-hosted LAN chat with accounts, direct messages, and file/image/video sharing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "ws": "^8.18.0"
+  }
+}
